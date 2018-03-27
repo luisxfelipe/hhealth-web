@@ -14,11 +14,11 @@
                       <?php require_once('nav.php'); ?>
                     </div>
                 </div>
-                
+
                 <div class="div_suporte_conteudo"><!--div de suporte para o menu-->
 
                 </div>
-                
+
                 <div class="content"><!--Content-->
                     <div class="faixa_titulo">
                           Agendamentos
@@ -40,24 +40,24 @@
                         <div class="titulo_exame">
                             Exames Disponiveis
                         </div>
-                        
+
                         <div class="content_faixa_exames"><!--content dos exames-->
                             <div class="content_nome_exames"><!--nome exames-->
                                 <a>Cardiologia</a>
                             </div>
-                            
+
                             <div class="acoes_exames"><!--ação 1-->
                                 <img src="">
                             </div>
-                            
+
                             <div class="acoes_exames"><!--ação 2-->
                                 <img src="">
                             </div>
                         </div>
-                          
+
                     </div>
                 </div>
-                
+
                 <footer><!--**FOOTER**-->
                   <?php require_once('footer.php'); ?>
                 </footer>
