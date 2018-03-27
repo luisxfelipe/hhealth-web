@@ -1,0 +1,43 @@
+/*
+
+  Data: 27/03/2018
+  Desenvolvedor: Gleyver Coutinho Castro
+  Obs: Página de estilização da area do paciente
+
+*/
+
+/*--------------------------- Tags padrões --------------------------- */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*--------------------------- Conteúdo da página -------------------------*/
+#content{
+  height: 900px;
+  width: 1200px;
+  background-color: #FF0000;
+  margin: auto;
+}
+
+/* Div que segura titulo da Página */
+#suporte_titulo{
+  height: 70px;
+  width: 100%;
+}
+
+/* Titulo */
+#titulo_pagina{
+  height: 50px;
+  width: 200px;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 32px;
+}
+
+.faixa_branca{
+  height: 1px;
+  width: 95%;
+  background-color: #ccc;
+  margin: auto;
+}
