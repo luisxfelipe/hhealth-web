@@ -106,7 +106,9 @@
                           </div>
 
                           <div class="content_btn_faixa_2_home">
-                              <p>Ver todos os ambiente do hospital</p>
+                                <a href="views/ambientes.php">
+                                     <p>Ver todos os ambiente do hospital</p>
+                              </a>
                           </div>
                       </div>
 
