@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <title>Hospital Hhealth</title>
         <link rel="stylesheet" type="text/css" href="../css/style_dicas_saude.css">
         <link rel="stylesheet" type="text/css" href="../css/style_nav.css">
         <link rel="stylesheet" type="text/css" href="../css/style_footer.css">
-        <title>Hospital HHealth</title>
+        <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../js/arc4.js"></script>
+        <script type="text/javascript" src="../js/arc1.js"></script>
+        <script type="text/javascript" src="../js/jquery.cycle.all.js.js"></script>
     </head>
-
     <body>
-      <div id="main"><!--Div Main que segura todas as divs-->
-         <?php require_once('nav.php'); ?>
+      <div class="main"><!--Div Main que segura todas as divs-->
+         <div class="suporte_menu">
+               <div class="menu"><!--**MENU**-->
+                  <?php require_once('nav.php'); ?>
+              </div>
+         </div>
+         <div class="div_suporte_conteudo">
+
+         </div>
          <div id="content_main">
            <!-- titulo da página -->
            <div id="suporte_titulo">
-             <div id="titulo_pagina">
-               <strong>Dicas</strong>
-             </div>
-           </div>
-           <!-- Faixa branca embaixo do menu -->
-           <div class="faixa_branca">
-
            </div>
 
            <div id="segura_slider">
-
+             <div id="superior">
+                 <div id="transicao">
+                     <p id="previous">PREV</p>
+                     <div id="galeria">
+                         <ul id="list">
+                             <li><img alt="celular" title="celular" class="image" src="../imagens/5dicas.jpg"></li>
+                             <li><img  alt="elevador" title="elevador" class="image" src="../imagens/cirurgia.jpg"></li>
+                             <li><img alt="suicidio" title="suicidio" class="image" src="../imagens/cirurgia1.jpg"></li>
+                         </ul>
+                     </div>
+                     <p id="next">NEXT</p>
+                 </div>
+             </div>
            </div>
 
            <div class="suporte_imagens_dicas">
@@ -32,31 +47,37 @@
                <div class="imagens">
                  <img src="../imagens/5dicas.jpg" alt="" class="item_imagem">
                </div>
-               <div class="titulo_dicas">
-                 <div class="suporte_titulo_dicas">
-                    titulos dicas
+               <a href="dica_saude.php">
+                 <div class="titulo_dicas">
+                   <div class="suporte_titulo_dicas">
+                      titulos dicas
+                   </div>
                  </div>
-               </div>
+               </a>
              </div>
              <div class="suporte_itens">
                <div class="imagens">
                  <img src="../imagens/5dicas.jpg" alt="" class="item_imagem">
                </div>
-               <div class="titulo_dicas">
-                 <div class="suporte_titulo_dicas">
-                   titulos dicas
+               <a href="dica_saude.php">
+                 <div class="titulo_dicas">
+                   <div class="suporte_titulo_dicas">
+                     titulos dicas
+                   </div>
                  </div>
-               </div>
+               </a>
              </div>
              <div class="suporte_itens">
                <div class="imagens">
                  <img src="../imagens/5dicas.jpg" alt="" class="item_imagem">
                </div>
-               <div class="titulo_dicas">
-                 <div class="suporte_titulo_dicas">
-                   titulos dicas
+               <a href="dica_saude.php">
+                 <div class="titulo_dicas">
+                   <div class="suporte_titulo_dicas">
+                     titulos dicas
+                   </div>
                  </div>
-               </div>
+               </a>
              </div>
            </div>
 
@@ -65,31 +86,37 @@
                 <div class="imagens">
                   <img src="../imagens/5dicas.jpg" alt="" class="item_imagem">
                 </div>
-                <div class="titulo_dicas">
-                  <div class="suporte_titulo_dicas">
-                    titulos dicas
+                <a href="dica_saude.php">
+                  <div class="titulo_dicas">
+                    <div class="suporte_titulo_dicas">
+                      titulos dicas
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               <div class="suporte_itens">
                 <div class="imagens">
                   <img src="../imagens/5dicas.jpg" alt="" class="item_imagem">
                 </div>
-                <div class="titulo_dicas">
-                  <div class="suporte_titulo_dicas">
-                    titulos dicas
+                <a href="dica_saude.php">
+                  <div class="titulo_dicas">
+                    <div class="suporte_titulo_dicas">
+                      titulos dicas
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
               <div class="suporte_itens">
                 <div class="imagens">
                   <img src="../imagens/5dicas.jpg" alt="" class="item_imagem">
                 </div>
-                <div class="titulo_dicas">
-                  <div class="suporte_titulo_dicas">
-                    titulos dicas
+                <a href="dica_saude.php">
+                  <div class="titulo_dicas">
+                    <div class="suporte_titulo_dicas">
+                      titulos dicas
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
 

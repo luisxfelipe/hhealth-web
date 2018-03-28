@@ -1,4 +1,4 @@
-﻿body{
+body{
     padding:0;
     margin:0;
 }
@@ -16,16 +16,38 @@
 }
 
 /*-----SLIDER-----*/
-.slider{
+/*.w3-content w3-display-container{*/
+/*    max-width:800px;*/
+/*    margin:auto;*/
+/*}*/
+/*.slide_container img{*/
+/*    width:100%;*/
+/*}*/
+
+.w3-content w3-display-container{/*content*/
+    max-width:800px;
     width:100%;
-    height:600px;
+    height:400px;
+    margin:auto;
+    background-color:red;
 }
 
-.slider img{
-      width: 100%;
-      height: 600px;
-      position: fixed;
+.w3-content w3-display-container img{
+    width:100%;
+/*    height:600px;*/
 }
+
+
+
+
+.w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle{
+    
+    height:53px;width:53px;padding:0
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer;margin-left:20px;}
+.w3-badge {height:25px;width:25px;padding:0;}  
 
 /*----MENU ACESSO RÁPIDO----*/
 #suporte_menu_de_acesso_rapido{
@@ -88,35 +110,44 @@
 
 .faixa_login_home{
     width:100%;
-    height:45px;
-    margin-top:10px;
+    height:50px;
+    margin-top:15px;
     text-align: center;
     font-family: sans-serif;
     color: white;
 }
 
 .faixa_login_home a{
-    margin-right:64%;
-    font-size: 18px;
+    margin-right:61%;
+    font-size: 17px;
+    margin-bottom: -
 }
 
 .faixa_login_home p{
-    margin-left:44%;
+    margin-left:35%;
     font-size: 12px;
 }
 
 
 .faixa_login_home [type=text],[type=password]{/*caixas de texto -login -senha*/
-    width:67%;
+    width:75%;
+    height: 21px;
+    margin-top: 5px;
+    border-radius: 4px;
     margin-left:0px;
 }
 
 
 .faixa_login_home [type=submit]{/*botão entrar*/
     width:170px;
-    height:30px;
+    height:25px;
     margin-left:0px;
-    border-radius:5px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #660000;
+    font-weight: bold;
+    border-color: white;
 }
 
 .faixa_login_home span{
@@ -131,16 +162,43 @@
     margin-left: 2%;
 }
 
-.faixa1_img_slide_home{
+#content {
+	margin: 0 auto;
+	width: 850px;
+	height:400px;
+    float:left;
+    margin-left: 2%;
+}
+
+#carrossel {
+	float: left;
+	width: 850px;
+	overflow: hidden;
+	height: 300px;
+}
+
+#carrossel ul li {
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin: 0 5px;
+}
+
+#carrossel ul li img{
     width:400px;
     height:300px;
-    background-image: url(../imagens/saude-bucal.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-left:15px;
-    margin-top:40px;
-    float:left;
 }
+
+#menu-carrossel {
+	float: left;
+	clear: both;
+	width: 100%;
+	text-align: center;
+    margin-bottom:50px;
+    
+}
+
+
 
 /*--------faixa 2------*/
 
@@ -196,12 +254,6 @@
       font-weight: bold;
       font-size: 18px;
       font-family: sans-serif;
-      text-decoration: none;
-      color: black;
-}
-
-a{
-      text-decoration: none;
 }
 
 /*--------faixa 3--------*/
@@ -219,7 +271,7 @@ a{
     height:300px;
     background-color:azure;
     margin-left:30px;
-    float: left;
+    float:left;
 }
 
 /*imagem unidades*/

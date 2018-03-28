@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
       <head>
-            <meta charset="UTF-8">
-            <link rel="stylesheet" type="text/css" href="../css/style_nav.css">
-            <link rel="stylesheet" type="text/css" href="../css/style_footer.css">
-            <link rel="stylesheet" type="text/css" href="../css/style_unidade.css">
-            <title>Hospital HHealth</title>
+
+        <!-- Link para estilização da pagina -->
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/style_nav.css">
+        <link rel="stylesheet" type="text/css" href="../css/style_footer.css">
+        <link rel="stylesheet" type="text/css" href="../css/style_unidades_hhealth.css">
+        <title>Hospital HHealth</title>
       </head>
       <body>
             <div class="main"><!--Div Main que segura todas as divs-->
@@ -19,9 +21,6 @@
                 </div>
                 <div class="suporte_content">
                       <div class="content">
-                           <div class="faixa_titulo_da_pagina">
-                                 Unidades
-                           </div>
                            <div class="faixa_busca">
                                  <div class="centraliza_input">
                                        <input type="search" name="" value="" placeholder="Search...">
@@ -32,9 +31,11 @@
                                  </div>
                            </div>
                            <div class="suporte_unidade">
-                                 <div class="faixa_nome_da_unidade">
-                                       Jandira
-                                 </div>
+                                 <a href="unidade_hhealth.php">
+                                   <div class="faixa_nome_da_unidade">
+                                         Jandira
+                                   </div>
+                                 </a>
                                  <div class="faixa_imagem_e_mapa">
                                        <div class="imagem">
                                              <img src="../imagens/hospital-jandira.jpg" alt="">
@@ -46,9 +47,12 @@
 
                            </div>
                            <div class="suporte_unidade">
-                                 <div class="faixa_nome_da_unidade">
-                                       Barueri
-                                 </div>
+                                 <a href="unidade_hhealth.php">
+                                   <div class="faixa_nome_da_unidade">
+                                         Barueri
+                                   </div>
+                                 </a>
+
                                  <div class="faixa_imagem_e_mapa">
                                        <div class="imagem">
                                              <img src="../imagens/hospital_barueri.jpg" alt="">
@@ -60,9 +64,12 @@
 
                            </div>
                            <div class="suporte_unidade">
-                                 <div class="faixa_nome_da_unidade">
-                                       Itapevi
-                                 </div>
+                                 <a href="unidade_hhealth.php">
+                                   <div class="faixa_nome_da_unidade">
+                                         Itapevi
+                                   </div>
+                                 </a>
+
                                  <div class="faixa_imagem_e_mapa">
                                        <div class="imagem">
                                              <img src="../imagens/hospital_itapevi.jpg" alt="">
@@ -74,9 +81,12 @@
 
                            </div>
                            <div class="suporte_unidade">
-                                 <div class="faixa_nome_da_unidade">
-                                       São Paulo
-                                 </div>
+                                 <a href="unidade_hhealth.php">
+                                   <div class="faixa_nome_da_unidade">
+                                         Sao Paulo
+                                   </div>
+                                 </a>
+
                                  <div class="faixa_imagem_e_mapa">
                                        <div class="imagem">
                                              <img src="../imagens/hospital_sp.jpg" alt="">
